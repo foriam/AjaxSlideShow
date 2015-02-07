@@ -7,8 +7,8 @@ if ($_GET[$nameOfPresentation]) {
 }
 
 ?>
-<link rel="stylesheet" type="text/css" href="pres/presentation.css" />
-<script type="text/javascript" src="pres/presentation.js"></script>
+<link rel="stylesheet" type="text/css" href="/AjaxSlideShow/presentation.css" />
+<script type="text/javascript" src="/AjaxSlideShow/presentation.js"></script>
 
 <div class="presentation-frame <?php 
 	if (isset($presentationFrame) && $presentationFrame == true) {
