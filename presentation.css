@@ -1,0 +1,230 @@
+.presentation-frame
+{
+    overflow: hidden;
+
+    max-height: 0;
+    margin: 2em 0 2em 0;
+
+    -webkit-transition: max-height .6s ease;
+       -moz-transition: max-height .6s ease;
+        -ms-transition: max-height .6s ease;
+         -o-transition: max-height .6s ease;
+            transition: max-height .6s ease;
+}
+
+.presentation-frameSh
+{
+    box-shadow: 0 0 .5em rgba(200, 200, 200, .8);
+}
+
+.presentation
+{
+    position: relative;
+
+    margin: 2em 0 2em 0;
+}
+
+.presentation img
+{
+    margin: 0 0;
+}
+
+.presentation-box
+{
+    display: block;
+    clear: both;
+    overflow: hidden;
+
+    width: 85%;
+    margin: 1em auto 2em auto;
+}
+
+.presentation-content
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    -webkit-transition: left .3s ease;
+       -moz-transition: left .3s ease;
+        -ms-transition: left .3s ease;
+         -o-transition: left .3s ease;
+            transition: left .3s ease;
+}
+
+.noTransition
+{
+    -webkit-transition: none !important;
+       -moz-transition: none !important;
+        -ms-transition: none !important;
+         -o-transition: none !important;
+            transition: none !important;
+}
+
+.presentation-content img
+{
+    width: 100%;
+    margin: 0 0;
+}
+
+.presentation-captions
+{
+    font-style: italic;
+
+    position: relative;
+
+    overflow: auto;
+
+    box-sizing: border-box;
+    width: 85%;
+    margin: 1.5em auto 1.5em auto;
+    padding: 5px;
+
+    text-align: justify;
+
+    opacity: .8;
+}
+
+.presentation-buttons-box
+{
+    position: relative;
+
+    width: 100%;
+}
+
+.presentation-buttons
+{
+    position: relative;
+
+    display: block;
+
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.presentation-button
+{
+    position: relative;
+
+    float: left;
+
+    width: 1em;
+    height: 1em;
+    margin: .5em;
+
+    opacity: .4;
+    border-radius: .5em;
+    background-color: rgb(150, 150, 150);
+}
+
+.presentation-button:hover
+{
+    cursor: pointer;
+    cursor: hand;
+
+    opacity: .6;
+}
+
+.presentation-button:active
+{
+    opacity: 1;
+}
+
+.presentation-button-loaded
+{
+    opacity: .5;
+    background-color: rgb(12, 155, 41);
+}
+
+.presentation-button-loaded:hover
+{
+    cursor: auto;
+
+    opacity: .5;
+}
+
+.dummy
+{
+    overflow: hidden !important;
+
+    height: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+
+.caption .caption p
+{
+    width: 80%;
+
+    text-align: justify;
+}
+
+.presentation-arrow
+{
+    font-size: 2em;
+
+    position: absolute;
+
+    width: .8em;
+    height: 100%;
+
+    opacity: .4;
+    border: 1px solid;
+    border-color: rgb(200, 200, 200);
+    background-color: rgb(250, 250, 250);
+}
+
+.presentation-arrow-active
+{
+    opacity: .8;
+    border: 0 solid;
+    background-color: rgb(240, 240, 240);
+}
+
+.presentation-arrow span
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: .6em;
+    height: 1em;
+    margin: auto;
+}
+
+.presentation-arrow-active:hover
+{
+    cursor: pointer;
+    cursor: hand;
+
+    opacity: 1;
+    background-color: rgb(230, 230, 230);
+}
+
+.presentation-arrow-active:active
+{
+    background-color: rgb(220, 220, 220);
+}
+
+.goBack
+{
+    top: 0;
+    left: 0;
+
+    border-top-left-radius: .3em;
+    border-bottom-left-radius: .3em;
+}
+
+.goForward
+{
+    top: 0;
+    left: calc(100% - .8em);
+
+    border-top-right-radius: .3em;
+    border-bottom-right-radius: .3em;
+}
