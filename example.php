@@ -33,7 +33,7 @@
 		//Choose if a frame should be shown (true/false)
 		$presentationFrame = true;
 		
-		include ('pres/presentation.php');
+		include ('/AjaxSlideShow/presentation.php');
 	?>
 </div>
 <!--End of presentation-->
